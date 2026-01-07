@@ -1,0 +1,26 @@
+{
+  "name": "discord-gemini-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot that interacts with the Google Gemini API.",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js",
+    "dev": "nodemon src/bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0",
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "google",
+    "gemini"
+  ],
+  "author": "Phoenix.TV",
+  "license": "MIT"
+}
