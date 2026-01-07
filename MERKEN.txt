@@ -1,0 +1,20 @@
+Starten (Produktion):   npm start
+oder:                   node src/bot.js
+Starten (Entwicklung):  npm run dev
+(startet den Bot mit nodemon, der bei Dateiänderungen automatisch neustartet)
+
+Stoppen:                Im Terminal STRG+C drücken. Der "STOP"-Befehl im Chat funktioniert nur, wenn du ihn programmierst.
+
+
+----
+
+Set-Location "e:\Programmieren\Bummmssss\Dc Google"; npm install
+
+Set-Location "e:\Programmieren\Bummmssss\Dc Google"; node index.js
+
+Der Bot läuft jetzt: Logged in as Phoenixs AI BOT FOR DC v. 2.7#3907!
+Du kannst in Discord testen:
+Sende !hello → Bot antwortet mit „Hello! 👋“
+Sende eine beliebige Nachricht → Bot fragt Gemini und antwortet
+Sende !upload → Bot versucht test.txt zu senden (Datei muss im Projektordner existieren)
+Sende stop → Bot beendet sich
